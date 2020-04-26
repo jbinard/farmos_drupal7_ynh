@@ -85,8 +85,8 @@
                     "en": "Choose the FarmOS install profile to use",
                     "fr": "Choisissez le profile d'installation de FarmOS"
                 },
-                "choices": ["minimal", "standard"],
-                "default": "standard"
+                "choices": ["minimal", "standard", "farm"],
+                "default": "farm"
             }
         ]
     }
