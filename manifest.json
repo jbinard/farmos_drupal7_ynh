@@ -1,16 +1,16 @@
 {
-    "name": "Drupal 7",
-    "id": "drupal7",
+    "name": "FarmOS on Drupal 7",
+    "id": "farmos_drupal7",
     "packaging_format": 1,
     "description": {
-        "en": "Old version of a content management framework written in PHP",
-        "fr": "Ancienne version d'un système de gestion de contenu écrit en PHP"
+        "en": "FarmOS is a web-based application for farm management, planning, and record keeping",
+        "fr": "FarmOS est une application web pour la gestion de ferme, le planning et la tenue des registres"
     },
-    "version": "7.69~ynh1",
+    "version": "7.x-1.3~ynh",
     "url": "https://www.drupal.org",
     "license": "GPL-2.0-or-later",
     "maintainer": {
-        "name": "yalh76"
+        "name": "jbinard"
     },
     "requirements": {
         "yunohost": ">= 3.5"
@@ -26,8 +26,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain name for Drupal 7",
-                    "fr": "Choisissez un nom de domaine pour Drupal 7"
+                    "en": "Choose a domain name for FarmOS",
+                    "fr": "Choisissez un nom de domaine pour FarmOS"
                 },
                 "example": "example.com"
             },
@@ -35,11 +35,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Drupal 7",
-                    "fr": "Choisissez un chemin pour Drupal 7"
+                    "en": "Choose a path for FarmOS",
+                    "fr": "Choisissez un chemin pour FarmOS"
                 },
-                "example": "/drupal7",
-                "default": "/drupal7"
+                "example": "/farmos",
+                "default": "/farmos"
             },
             {
                 "name": "admin",
@@ -82,8 +82,8 @@
                 "name": "install_profil",
                 "type": "string",
                 "ask": {
-                    "en": "Choose the Drupal 7 install profile to use",
-                    "fr": "Choisissez le profile d'installation de Drupal 7"
+                    "en": "Choose the FarmOS install profile to use",
+                    "fr": "Choisissez le profile d'installation de FarmOS"
                 },
                 "choices": ["minimal", "standard"],
                 "default": "standard"
