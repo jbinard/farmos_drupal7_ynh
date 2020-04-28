@@ -169,7 +169,7 @@ sudo -u $app env PATH=$PATH drush @$app language-default $language
 sudo -u $app env PATH=$PATH drush @$app cache-clear drush
 sudo -u $app env PATH=$PATH drush @$app l10n-update-refresh
 sudo -u $app env PATH=$PATH drush @$app l10n-update
-sudo -u $app env PATH=$PATH drush @$app pm-update
+sudo -u $app env PATH=$PATH drush @$app pm-update -y
 sudo -u $app env PATH=$PATH drush @$app core-cron
 
 update-alternatives --set php /usr/bin/php7.0
